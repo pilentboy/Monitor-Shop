@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "scripts": {
+    "build": "npx tailwindcss -i ./input/input.css -o ./Public/styles/app.css --watch"
+  },
+  "dependencies": {
+    "tailwindcss-animation-delay": "^1.0.7"
+  }
+}

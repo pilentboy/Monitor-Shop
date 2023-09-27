@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  
+  body{
+    @apply overflow-x-hidden 
+  }
+
+  .hover-t-wh{
+    @apply duration-200 inline-block
+  }
+  #OnlineHelp{
+    @apply duration-300
+  }
+  section img {
+    @apply w-80
+
+  }
+ 
+}
+
+@layer utilities{
+    .hover-t-wh{
+       @apply  hover:text-white  
+    }
+    .hover-bg-green{
+      @apply hover:bg-green-600 duration-300
+    }
+    .nav-icon-hover{
+        @apply hover:scale-110 duration-200
+    }
+    #product-right i:nth-child(2){
+      @apply text-2xl ;
+    }
+    #product-right i:nth-child(3){
+      @apply text-3xl ;
+    }
+    #product-right i:nth-child(4){
+      @apply text-4xl ;
+    }
+    
+    #NewProductsSection img{
+      @apply xl:hover:scale-105 duration-300 
+    }
+
+    .new-product:hover  .img-line {
+      @apply bg-red-600
+    }
+
+    #SupportInp2uts a i{
+      @apply ms-2  
+    }
+
+}
