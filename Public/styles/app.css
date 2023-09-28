@@ -937,17 +937,17 @@ section img {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-#product-right i:nth-child(2) {
+#header-right i:nth-child(2) {
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
-#product-right i:nth-child(3) {
+#header-right i:nth-child(3) {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
 
-#product-right i:nth-child(4) {
+#header-right i:nth-child(4) {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
