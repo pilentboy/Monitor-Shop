@@ -3,6 +3,8 @@
 module.exports = {
   // content: ["./Public/index.html"],
   content: ["*.html"],
+  darkMode:"class"
+  ,
   theme: {
     screens:{
       'sm':'100px',

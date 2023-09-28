@@ -10,6 +10,7 @@
     <!-- css-->
     <link rel="stylesheet" href="./Public/styles/app.css" />
 
+   
     <!-- font awesome-->
     <link
       rel="stylesheet"
@@ -39,22 +40,25 @@
         </button>
 
         <ul
-          class="my-3 mx-auto bg-red-400 rounded-t-lg py-3 flex items-center justify-around capitalize text-lg font-bold sm:w-[240px] md:w-[350px]"
+          class="my-3 mx-auto bg-red-400 rounded-t-lg py-3 flex items-center justify-around capitalize text-lg font-bold sm:w-[240px] md:w-[350px] "
         >
           <li><a href="#" class="hover-t-wh">home</a></li>
           <li><a href="#" class="hover-t-wh">products</a></li>
           <li><a href="#" class="hover-t-wh">guide</a></li>
         </ul>
+
         <!-- user control panel link -->
-        <a href="#" class=" text-black text-5xl">
+      
           <!-- <img
-            src="asset/svg/user-check-alt-svgrepo-com.svg"
+          src="asset/svg/user-check-alt-svgrepo-com.svg"
             class="w-10 nav-icon-hover"
             alt=""
             title="control panel"
           /> -->
-          <i class="fa fa-moon" aria-hidden="true"></i>
-        </a>
+
+          <!-- dark mode btn -->
+          <i  class="fa fa-moon nav-icon-hover text-black text-5xl cursor-pointer" aria-hidden="true"></i>
+        
       </nav>
 
       <!-- header product images -->
@@ -203,4 +207,8 @@
       </section>
     </footer>
   </body>
+
+   <!-- scripts -->
+   <script src="./Public/scripts/DarkMode.js"></script>
+
 </html>
