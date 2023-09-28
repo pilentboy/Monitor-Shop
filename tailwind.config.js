@@ -2,7 +2,7 @@
 
 module.exports = {
   // content: ["./Public/index.html"],
-  content: ["./Public/*.html"],
+  content: ["*.html"],
   theme: {
     screens:{
       'sm':'100px',

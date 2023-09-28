@@ -8,19 +8,19 @@
     <title>Best PC</title>
 
     <!-- css-->
-    <link rel="stylesheet" href="Public/styles/app.css" />
+    <link rel="stylesheet" href="./Public/styles/app.css" />
 
     <!-- font awesome-->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+    "
     />
-    
   </head>
+
+
   <body class="bg-gray-900">
-
     <header class="w-screen inline-block sm:h-screen md:h-[460px] lg:h-screen">
-
       <!-- NAV LINKS -->
       <nav class="flex items-center w-screen px-[5%] bg-gray-100">
         <!-- search -->
@@ -37,6 +37,7 @@
             ></path>
           </svg>
         </button>
+
         <ul
           class="my-3 mx-auto bg-red-400 rounded-t-lg py-3 flex items-center justify-around capitalize text-lg font-bold sm:w-[240px] md:w-[350px]"
         >
@@ -45,13 +46,14 @@
           <li><a href="#" class="hover-t-wh">guide</a></li>
         </ul>
         <!-- user control panel link -->
-        <a href="#">
-          <img
+        <a href="#" class=" text-black text-5xl">
+          <!-- <img
             src="asset/svg/user-check-alt-svgrepo-com.svg"
             class="w-10 nav-icon-hover"
             alt=""
             title="control panel"
-          />
+          /> -->
+          <i class="fa fa-moon" aria-hidden="true"></i>
         </a>
       </nav>
 
@@ -79,7 +81,6 @@
           <i class="fa fa-sort-down animate-light3 animation-delay-4000"></i>
         </div>
       </div>
-
     </header>
 
     <!-- ONLINE HELP -->
@@ -96,92 +97,109 @@
     </div>
 
     <main>
-
-  
-    <!-- NEW PRODUCTS SECTION -->
-    <section
-      id="NewProductsSection"
-      class="flex flex-col items-center z-[100] justify-around sm:h-screen md:h-[750px] lg:h-screen sm:py-[100px]  lg:py-0 "
-    >
-      <div class="relative new-product">
-        <a href="#">
-          <img src="asset/picture/PngItem_1089743.png" alt="product image" />
-        </a>
-        <span
-          class="img-line absolute h-36 w-1 bg-red-400 opacity-20 bottom-[-60%] left-[50%] rounded-lg sm:hidden xl:flex"
-        ></span>
-      </div>
-
-      <div
-        class="w-screen flex items-center justify-around sm:flex-col lg:mt-0 lg:flex-row"
+      <!-- NEW PRODUCTS SECTION -->
+      <section
+        id="NewProductsSection"
+        class="flex flex-col items-center z-[100] justify-around sm:h-screen md:h-[750px] lg:h-screen sm:py-[100px] lg:py-0"
       >
-        <div
-          class="new-product relative sm:mb-0 sm:mt-4 sm:pb-4 lg:p-0 sm:order-2 lg:order-4"
-        >
-          <a href="#">
-            <img src="asset/picture/PngItem_1318453.png" alt="product image" />
-          </a>
-          <span
-            class="img-line absolute h-1 w-36 bg-red-400 opacity-20 top-[50%] left-[-50%] rounded-lg sm:hidden xl:block"
-          ></span>
-        </div>
-
-        <a
-          href="#"
-          id="allNewProBTN"
-          class="w-52 h-16 rounded-lg font-bold bg-red-400 hover-t-wh flex items-center justify-center sm:mb-8 sm:mt-6 md:my-20 lg:my-0 sm:order-1 lg:order-3"
-          >ALL NEW PRODUCTS</a
-        >
-
-        <div class="new-product relative sm:hidden lg:block lg:order-2">
+        <div class="relative new-product">
           <a href="#">
             <img src="asset/picture/PngItem_1089743.png" alt="product image" />
           </a>
-
           <span
-            class="img-line absolute h-1 w-36 bg-red-400 opacity-20 top-[50%] right-[-50%] rounded-lg sm:hidden xl:block"
+            class="img-line absolute h-36 w-1 bg-red-400 opacity-20 bottom-[-60%] left-[50%] rounded-lg sm:hidden xl:flex"
           ></span>
         </div>
-      </div>
-    </section>
 
-    <!-- SUPPORT SECTION -->
-    <section id="supportSection" class="px-20  h-screen relative flex  sm:h-full   md:h-[650px] xl:h-screen md:mt-32  xl:mt-32 sm:bg-gray-800 xl:bg-gray-600 sm:flex-col md:flex-row sm:items-center md:items-end sm:pt-10 sm:mt-8  ">
+        <div
+          class="w-screen flex items-center justify-around sm:flex-col lg:mt-0 lg:flex-row"
+        >
+          <div
+            class="new-product relative sm:mb-0 sm:mt-4 sm:pb-4 lg:p-0 sm:order-2 lg:order-4"
+          >
+            <a href="#">
+              <img
+                src="asset/picture/PngItem_1318453.png"
+                alt="product image"
+              />
+            </a>
+            <span
+              class="img-line absolute h-1 w-36 bg-red-400 opacity-20 top-[50%] left-[-50%] rounded-lg sm:hidden xl:block"
+            ></span>
+          </div>
 
-      <div   class="  sm:w-full md:w-1/2   md:bg-gray-800 md:h-full xl:h-screen flex items-end  justify-center sm:order-2 md:order-1 sm:mt-4 md:mt-0 md:mr-4 xl:mr-0">
-        <img src="asset/picture/imgbin_stock-photography-telephone-call-centre-headset-business-png.png" alt="support image" class="">
-      </div>
+          <a
+            href="#"
+            id="allNewProBTN"
+            class="w-52 h-16 rounded-lg font-bold bg-red-400 hover-t-wh flex items-center justify-center sm:mb-8 sm:mt-6 md:my-20 lg:my-0 sm:order-1 lg:order-3"
+            >ALL NEW PRODUCTS</a
+          >
 
-      <!-- SUPPORT INPUTS -->
-      <div id="SupportInputs" class="w-1/2 sm:h-full xl:h-screen  flex flex-col items-center justify-center space-y-8 capitalize sm:bg-gray-800 md:bg-gray-900  sm:order-1 md:order-2">
+          <div class="new-product relative sm:hidden lg:block lg:order-2">
+            <a href="#">
+              <img
+                src="asset/picture/PngItem_1089743.png"
+                alt="product image"
+              />
+            </a>
 
-        <a
-        href="#"
-        class="bg-white w-72 py-4 px-8 flex items-center justify-between  text-center font-bold  rounded-lg text-[20px] hover-bg-green "
-        >online chat  <i class="fa fa-comment"></i> </a
+            <span
+              class="img-line absolute h-1 w-36 bg-red-400 opacity-20 top-[50%] right-[-50%] rounded-lg sm:hidden xl:block"
+            ></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SUPPORT SECTION -->
+      <section
+        id="supportSection"
+        class="px-20 h-screen relative flex sm:h-full md:h-[650px] xl:h-screen md:mt-32 xl:mt-32 sm:bg-gray-800 xl:bg-gray-600 sm:flex-col md:flex-row sm:items-center md:items-end sm:pt-10 sm:mt-8"
       >
+        <div
+          class="sm:w-full md:w-1/2 md:bg-gray-800 md:h-full xl:h-screen flex items-end justify-center sm:order-2 md:order-1 sm:mt-4 md:mt-0 md:mr-4 xl:mr-0"
+        >
+          <img
+            src="asset/picture/imgbin_stock-photography-telephone-call-centre-headset-business-png.png"
+            alt="support image"
+            class=""
+          />
+        </div>
 
-      <a
-        href="#"
-        class="bg-green-400 w-72 py-4 px-8 flex items-center justify-between  text-center font-bold  rounded-lg text-[20px] hover-bg-green  "
-        >email us <i class="fa fa-envelope"> </i></a
-      >
+        <!-- SUPPORT INPUTS -->
+        <div
+          id="SupportInputs"
+          class="w-1/2 sm:h-full xl:h-screen flex flex-col items-center justify-center space-y-8 capitalize sm:bg-gray-800 md:bg-gray-900 sm:order-1 md:order-2"
+        >
+          <a
+            href="#"
+            class="bg-white w-72 py-4 px-8 flex items-center justify-between text-center font-bold rounded-lg text-[20px] hover-bg-green"
+            >online chat <i class="fa fa-comment"></i>
+          </a>
 
-      <a
-        href="#"
-        class="bg-white w-72 py-4 px-8 flex items-center justify-between text-center font-bold  rounded-lg text-[20px] hover-bg-green "
-        >call us anytime <i class="fa fa-phone"> </i></a
-      >
+          <a
+            href="#"
+            class="bg-green-400 w-72 py-4 px-8 flex items-center justify-between text-center font-bold rounded-lg text-[20px] hover-bg-green"
+            >email us <i class="fa fa-envelope"> </i
+          ></a>
 
-      </div>
+          <a
+            href="#"
+            class="bg-white w-72 py-4 px-8 flex items-center justify-between text-center font-bold rounded-lg text-[20px] hover-bg-green"
+            >call us anytime <i class="fa fa-phone"> </i
+          ></a>
+        </div>
+      </section>
+    </main>
 
-    </section>
-
-  </main>
-
-    <footer id="footer" class=" sm:bg-gray-800 border-t-8  xl:border-gray-800 sm:border-gray-600  xl:bg-gray-600  py-5 px-20 ">
-      <section class="  flex items-center justify-center font-bold ">
-        <span class="text-black border-b-2 sm:border-gray-600 xl:border-gray-800">2023 - <i class="fa fa-desktop"></i></span>
+    <footer
+      id="footer"
+      class="sm:bg-gray-800 border-t-8 xl:border-gray-800 sm:border-gray-600 xl:bg-gray-600 py-5 px-20"
+    >
+      <section class="flex items-center justify-center font-bold">
+        <span
+          class="text-black border-b-2 sm:border-gray-600 xl:border-gray-800"
+          >2023 - <i class="fa fa-desktop"></i
+        ></span>
       </section>
     </footer>
   </body>
