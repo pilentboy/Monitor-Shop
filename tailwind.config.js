@@ -27,7 +27,7 @@ module.exports = {
     "animation":{
       "light1":"light1 12s linear infinite",
       "light2":"light2 12s linear infinite",
-      "light3":"light3 12s linear infinite"
+      "light3":"light3 12s linear infinite",
     },
    
     "keyframes":{
@@ -39,7 +39,7 @@ module.exports = {
       },
       "light3":{
         '0%': { color:'black' }, '10%':{color:'red'} ,'20%':{color:'black'}
-      },
+      }
     }
     
   },
